@@ -1,0 +1,36 @@
+function estaciones(mes){
+    switch(mes){
+    case 1:
+    case 2:
+    case 12:{
+      return "Invierno"
+    }
+    case 3:
+    case 4:
+    case 5:{
+      return "Primavera"
+    }
+    case 6:
+    case 7:
+    case 8: {
+        return "Verano"
+    }  
+
+    case 9:
+    case 10:
+    case 11: {
+      return "OtoÃ±o"
+    } 
+  
+    }
+   
+}
+
+
+var mes = parseInt(prompt("ingrese mes"))
+
+console.log(estaciones(mes));
+
+alert ("El mes " +mes+ " pertenece a la estacion " +estaciones(mes) )
+
+alert ("Carlos Carranza 21003345")
